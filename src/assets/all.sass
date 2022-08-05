@@ -15,6 +15,12 @@ $whitedark: rgb(165, 144, 126, 0.2)
 $body-background-color: $whitedark
 $body-color: $whitedark
 
+.centered
+  margin-left: auto
+  margin-right: auto
+  justify-content: center
+  text-align: center
+
 @font-face
   font-family: 'Century'
   src: url('/fonts/CenturyGothicRegular.ttf') format('truetype')
@@ -72,6 +78,13 @@ $whatsappgreen: #25D366
   &:hover
     color: $gold
 
+.sliderimage
+  height: 60vh!important
+
+.navbar-item
+  text-align: center
+
+
 .nomarginbottom
   margin-bottom: 0!important
   padding-bottom: 0!important
@@ -82,8 +95,10 @@ $whatsappgreen: #25D366
 .navbar .navbar-menu
   box-shadow: none !important
 
-.navbar
-  height: 4em
+.content
+  ul
+    margin-top: 0!important
+    margin-bottom: 0!important
 
 
 .content .taglist
@@ -117,7 +132,7 @@ $whatsappgreen: #25D366
 
 
 
-.chickcontainer
+.girlcontainer
   width: 333px
   height: 333px
   background-size: cover
@@ -212,7 +227,7 @@ $navbar-item-hover-color: $gold
     background-color: red!important
 
 
-.chickcontainer
+.girlcontainer
   &:hover
     background: opacity(red)
 
@@ -222,17 +237,24 @@ $pulse: $red
 $goldtransparent: rgb(255,215,0, 0.222)
 
 
-.chickcontainer
+.girlcontainer
   &:hover
-    animation: pulse 1s
+    animation: pulse 1ms
     box-shadow: 0px 2px 10px 3px $red , 0 -5px 10px -5px $warning
-    .fadename, .chickinfo, .fadenameslow
+    .fadename, .girlinfo, .fadenameslow
       display: block!important
 
 
-@keyframes pulse
+@-webkit-keyframes pulse
+
   0%
-    box-shadow: 0 0 0 0 $pulse
+    box-shadow: 0 0 0 0 $pulse!important
+
+  50%
+    box-shadow: 0px 1px 5px 1.5px $red , 0 -5px 10px -5px $warning!important
+
+  75%
+    box-shadow: 0px 1px 7.5px 2.25px $red , 0 -5px 10px -5px $warning!important
 
 .fadename
   display: none
@@ -306,7 +328,7 @@ $goldtransparent: rgb(255,215,0, 0.222)
   height: 75.75px!important
   align-items: center!important
 
-.chickinfo
+.girlinfo
   display: none
   background-color: $primary-dark
   color: $gold
