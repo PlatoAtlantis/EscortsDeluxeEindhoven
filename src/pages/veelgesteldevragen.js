@@ -14,7 +14,7 @@ const VeelgesteldeVragenPagina = () => {
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-1 has-text-primary"
+          className="has-text-weight-bold is-size-1 has-text-primary has-text-centered"
           style={{
             backgroundColor: "#ffffff",
             padding: "1rem",

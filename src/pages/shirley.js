@@ -65,9 +65,6 @@ const Shirley = () => {
                   Pijpen zonder condoom
                 </div>
                 <div className="column">
-                  Anaal
-                </div>
-                <div className="column">
                   Squirting
                 </div>
                 <div className="column">

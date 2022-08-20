@@ -66,9 +66,6 @@ const Natasha = () => {
               <div className="column">
                 Anaal
               </div>
-              <div className="column">
-Squirting
-              </div>
                 <div className="column">
                   Zoenen
                 </div>
