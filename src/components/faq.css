@@ -17,6 +17,10 @@
     margin-top: 32px;
 }
 
+.label{
+    background-color: green!important;
+}
+
 .faq {
     width: 1000px;
     margin: 0 auto;
