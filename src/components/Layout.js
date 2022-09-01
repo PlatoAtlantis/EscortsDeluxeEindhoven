@@ -21,14 +21,12 @@ const Layout = ({ children }) => {
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}img/deluxeLOGO.png`}
-          sizes="32x32"
+          href={`${withPrefix("/")}img/tiger.jpeg`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix("/")}img/deluxeLOGO.png`}
-          sizes="16x16"
+          href={`${withPrefix("/")}img/tiger.jpeg`}
         />
 
         <link
