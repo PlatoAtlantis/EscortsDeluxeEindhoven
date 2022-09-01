@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix("/")}img/apple-touch-icon.png`}
+          href={`${withPrefix("/")}img/tiger.jpeg`}
         />
         <link
           rel="icon"
@@ -33,17 +33,17 @@ const Layout = ({ children }) => {
 
         <link
           rel="mask-icon"
-          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
+          href={`${withPrefix("/")}img/tiger.jpeg`}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content="123" />
+        <meta property="og:title" content="Deluxe Escorts" />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/tiger.jpeg`}
         />
       </Helmet>
       <Navbar />
