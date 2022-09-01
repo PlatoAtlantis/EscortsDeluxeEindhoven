@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>"123"</title>
-        <meta name="description" content="123" />
+        <meta name="description" content="Deluxe Escorts" />
 
         <link
           rel="apple-touch-icon"
