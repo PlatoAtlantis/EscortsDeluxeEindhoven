@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>"Deluxe Escorts"</title>
+        <title>Deluxe Escorts</title>
         <meta name="description" content="Deluxe Escorts" />
 
         <link
