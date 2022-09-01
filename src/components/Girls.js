@@ -32,11 +32,11 @@ const Girls = () => {
 
 
       <div className="column">
-        <Link to="/roxana">
+        <Link to="/agustina">
         <div
           className="girlcontainer pulse"
           style={{
-            backgroundImage: `url('/img/roxana1.png')`,
+            backgroundImage: `url('/img/agustina1.png')`,
           }}
         >
           <div className="girlinfo has-text-warning">

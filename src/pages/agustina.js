@@ -29,7 +29,7 @@ const Agustina = () => {
               padding: "1rem",
             }}
           >
-            Roxana
+            Agustina
           </h1>
         </div>
 
@@ -55,7 +55,7 @@ const Agustina = () => {
           </div>
         </section>
         <h1 className="title has-text-centered">Extra services</h1>
-        <h2 className="subtitle has-text-centered">Al onze dames bieden de girlfriend experience aan. Hieronder vind u de extra services die Natasha aanbied.</h2>
+        <h2 className="subtitle has-text-centered">Al onze dames bieden de girlfriend experience aan. Hieronder vind u de extra services die Agustina aanbied.</h2>
         <div className="hero is-medium has-background-primary-dark has-text-centered">
           <div className="hero-body has-text-centered is-primary has-text-warning">
             <div className="container">
