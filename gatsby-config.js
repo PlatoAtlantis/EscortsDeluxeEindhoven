@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Escortbedrijf",
+    title: "Deluxe Escorts",
     description:
-      "123",
+      "Deluxe",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
