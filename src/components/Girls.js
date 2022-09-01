@@ -11,7 +11,7 @@ const Girls = () => {
     <div className="columns has-text-centered">
 
       <div className="column">
-        <Link to="/natasha">
+        <Link to="/agustina">
           <div
             className="girlcontainer pulse"
             style={{
@@ -19,7 +19,7 @@ const Girls = () => {
             }}
           >
             <div className="girlinfo has-text-warning">
-              <div className="girlcontainer">
+              <div className="infocontainer">
                 <i className="is2 fadename">👑</i>
                 <FontAwesomeIcon icon="faCrown"/>
                 <h2 className="title mb-0 fadename has-text-warning">Natasha</h2>
