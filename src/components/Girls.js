@@ -11,7 +11,7 @@ const Girls = () => {
     <div className="columns has-text-centered">
 
       <div className="column">
-        <Link to="/agustina">
+        <Link to="/natasha">
           <div
             className="girlcontainer pulse"
             style={{
