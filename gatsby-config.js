@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Deluxe Escorts",
+    title: "Deluxe",
     description:
       "Deluxe",
   },
