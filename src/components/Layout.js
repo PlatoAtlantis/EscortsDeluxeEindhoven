@@ -29,15 +29,7 @@ const Layout = ({ children }) => {
           href={`${withPrefix("/")}img/tiger.jpeg`}
         />
 
-        <linkimport * as React from "react";
-        import { Helmet } from "react-helmet";
-        import Footer from "../components/Footer";
-        import Navbar from "../components/Navbar";
-        import "../assets/all.sass";
-        import { withPrefix } from "gatsby";
 
-        const Layout = ({ children }) => {
-        return (
         <div>
         <Helmet>
         <html lang="en" />
